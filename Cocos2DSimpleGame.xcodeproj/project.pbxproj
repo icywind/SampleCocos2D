@@ -139,6 +139,15 @@
 		3653683B17470CF7009B18EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3653683A17470CF7009B18EC /* AppDelegate.m */; };
 		3653683E17470CF7009B18EC /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3653683D17470CF7009B18EC /* HelloWorldLayer.m */; };
 		3653684117470CF7009B18EC /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3653684017470CF7009B18EC /* IntroLayer.m */; };
+		3653685217471021009B18EC /* monster-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 3653684917471021009B18EC /* monster-hd.png */; };
+		3653685317471021009B18EC /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 3653684A17471021009B18EC /* monster.png */; };
+		3653685417471021009B18EC /* player-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 3653684B17471021009B18EC /* player-hd.png */; };
+		3653685517471021009B18EC /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 3653684C17471021009B18EC /* player.png */; };
+		3653685617471021009B18EC /* projectile-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 3653684D17471021009B18EC /* projectile-hd.png */; };
+		3653685717471021009B18EC /* projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3653684E17471021009B18EC /* projectile.png */; };
+		3653685817471021009B18EC /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3653685017471021009B18EC /* background-music-aac.caf */; };
+		3653685917471021009B18EC /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3653685117471021009B18EC /* pew-pew-lei.caf */; };
+		3653685C174ACA8B009B18EC /* GameOverLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3653685B174ACA8B009B18EC /* GameOverLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -420,6 +429,16 @@
 		3653683D17470CF7009B18EC /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		3653683F17470CF7009B18EC /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		3653684017470CF7009B18EC /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		3653684917471021009B18EC /* monster-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monster-hd.png"; sourceTree = "<group>"; };
+		3653684A17471021009B18EC /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
+		3653684B17471021009B18EC /* player-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player-hd.png"; sourceTree = "<group>"; };
+		3653684C17471021009B18EC /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		3653684D17471021009B18EC /* projectile-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "projectile-hd.png"; sourceTree = "<group>"; };
+		3653684E17471021009B18EC /* projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = projectile.png; sourceTree = "<group>"; };
+		3653685017471021009B18EC /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		3653685117471021009B18EC /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		3653685A174ACA8B009B18EC /* GameOverLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverLayer.h; sourceTree = "<group>"; };
+		3653685B174ACA8B009B18EC /* GameOverLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -482,6 +501,8 @@
 				3653683A17470CF7009B18EC /* AppDelegate.m */,
 				3653683C17470CF7009B18EC /* HelloWorldLayer.h */,
 				3653683D17470CF7009B18EC /* HelloWorldLayer.m */,
+				3653685A174ACA8B009B18EC /* GameOverLayer.h */,
+				3653685B174ACA8B009B18EC /* GameOverLayer.m */,
 				3653683F17470CF7009B18EC /* IntroLayer.h */,
 				3653684017470CF7009B18EC /* IntroLayer.m */,
 				365366AC17470CF5009B18EC /* Resources */,
@@ -494,6 +515,7 @@
 		365366AC17470CF5009B18EC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3653684717471021009B18EC /* ResourcePack */,
 				365366AD17470CF5009B18EC /* Default.png */,
 				365366AF17470CF5009B18EC /* Default@2x.png */,
 				365366B117470CF5009B18EC /* Default-568h@2x.png */,
@@ -870,6 +892,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3653684717471021009B18EC /* ResourcePack */ = {
+			isa = PBXGroup;
+			children = (
+				3653684817471021009B18EC /* Art */,
+				3653684F17471021009B18EC /* Sounds */,
+			);
+			path = ResourcePack;
+			sourceTree = "<group>";
+		};
+		3653684817471021009B18EC /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				3653684917471021009B18EC /* monster-hd.png */,
+				3653684A17471021009B18EC /* monster.png */,
+				3653684B17471021009B18EC /* player-hd.png */,
+				3653684C17471021009B18EC /* player.png */,
+				3653684D17471021009B18EC /* projectile-hd.png */,
+				3653684E17471021009B18EC /* projectile.png */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
+		3653684F17471021009B18EC /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3653685017471021009B18EC /* background-music-aac.caf */,
+				3653685117471021009B18EC /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -933,6 +986,14 @@
 				365366C017470CF5009B18EC /* Icon@2x.png in Resources */,
 				365366C317470CF5009B18EC /* iTunesArtwork in Resources */,
 				3653681917470CF7009B18EC /* ChangeLog in Resources */,
+				3653685217471021009B18EC /* monster-hd.png in Resources */,
+				3653685317471021009B18EC /* monster.png in Resources */,
+				3653685417471021009B18EC /* player-hd.png in Resources */,
+				3653685517471021009B18EC /* player.png in Resources */,
+				3653685617471021009B18EC /* projectile-hd.png in Resources */,
+				3653685717471021009B18EC /* projectile.png in Resources */,
+				3653685817471021009B18EC /* background-music-aac.caf in Resources */,
+				3653685917471021009B18EC /* pew-pew-lei.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1054,6 +1115,7 @@
 				3653683B17470CF7009B18EC /* AppDelegate.m in Sources */,
 				3653683E17470CF7009B18EC /* HelloWorldLayer.m in Sources */,
 				3653684117470CF7009B18EC /* IntroLayer.m in Sources */,
+				3653685C174ACA8B009B18EC /* GameOverLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
