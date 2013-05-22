@@ -1221,6 +1221,7 @@
 				3653684617470CF7009B18EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
